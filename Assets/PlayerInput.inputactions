@@ -3,13 +3,13 @@
     "name": "PlayerInput",
     "maps": [
         {
-            "name": "PlayerInput",
+            "name": "GameActionMap",
             "id": "45b06c6f-5583-4bfa-adb6-c949aafcebb3",
             "actions": [
                 {
                     "name": "ToggleConsole",
                     "type": "Button",
-                    "id": "fb5ebd08-cabd-44a4-a5d2-22a1a300be91",
+                    "id": "47008f02-efb9-47b9-b4a6-28404e676aa3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -19,12 +19,100 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "00c5760a-17c4-40c2-b6f1-90bd3b5117f7",
+                    "id": "52614e71-8e51-463e-bd37-6dbd29a5362d",
                     "path": "<Keyboard>/period",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "ToggleConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ConsoleActionMap",
+            "id": "7307d825-f298-44cd-9ca6-3de38688aad0",
+            "actions": [
+                {
+                    "name": "ToggleConsole",
+                    "type": "Button",
+                    "id": "d1076d64-18d7-4be3-a779-ab45ffcefabc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RecentCommandsUp",
+                    "type": "Button",
+                    "id": "233a9d49-4adf-4cae-a985-6c3ce6b00315",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RecentCommandsDown",
+                    "type": "Button",
+                    "id": "93699241-66b0-4dc3-957a-6bede17322db",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AutocompleteCommand",
+                    "type": "Button",
+                    "id": "76a3b1d7-c714-4cb5-be5e-df4c900f38df",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5dcc621-4495-4433-aad8-688afac06df1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08ce5aed-8622-4ee5-9d39-10c8f4289444",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RecentCommandsUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4254c56d-b77c-4d96-81e8-4e8dea5119e6",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RecentCommandsDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b495a05c-a3a9-4b99-9ea1-5d64fef2940d",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AutocompleteCommand",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

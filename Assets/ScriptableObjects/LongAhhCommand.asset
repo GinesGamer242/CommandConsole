@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53f66523749393e47bbae21a7c79bd76, type: 3}
-  m_Name: TestCommand
+  m_Name: LongAhhCommand
   m_EditorClassIdentifier: Assembly-CSharp::CommandSO
-  m_ID: 0
-  m_Key: test
+  m_ID: 2
+  m_Keyword: soylargodecojonesjajasalu2
   m_Method: {fileID: 11500000, guid: 5270d0fee50492548932c987bbb2999b, type: 3}
+  m_ShortcutKey: 0
